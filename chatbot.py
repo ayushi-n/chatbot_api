@@ -9,7 +9,7 @@ code = OpenAI(
 
 response = code.responses.create(
     input = "Hello, how are you?",
-    model="gpt-5-mini",
+    model="openrouter/free",
 )
 
 print(response.output_text)
